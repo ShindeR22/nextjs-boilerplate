@@ -9,130 +9,149 @@ const timelineData = [
         {
                 date: "April 2025",
                 title: "Geo Location Based Suggestions",
-                description:
-                        "Implement geolocation to suggest properties based on the user's current location. (Estimated Time: 1 Week)",
+                description: "Implement geolocation to suggest properties based on the user's current location. ",
                 status: "upcoming",
                 icon: "location",
         },
         {
-                date: "May 2025",
-                title: "Plot, Villa, Office, Simplex, Duplex, Shop Listing",
-                description:
-                        "Create listing pages for various property types with clear categorization. (Estimated Time: 5-6 Weeks)",
-                status: "upcoming",
-                icon: "list",
-        },
-        {
-                date: "June 2025",
-                title: "Tower Listing",
-                description:
-                        "Display and manage tower-specific listings within the platform. (Estimated Time: 1 Week)",
-                status: "upcoming",
-                icon: "tower",
-        },
-        {
-                date: "June 2025",
-                title: "Search V2",
-                description:
-                        "Develop an advanced search with filters, sorting, and improved user experience. (Estimated Time: 2 Weeks)",
-                status: "upcoming",
-                icon: "search",
-        },
-        {
-                date: "July 2025",
-                title: "Cost Optimization",
-                description:
-                        "Refactor code and optimize infrastructure to reduce costs. (Estimated Time: 2 Weeks)",
-                status: "upcoming",
-                icon: "optimization",
-        },
-        {
-                date: "July 2025",
-                title: "Mobile Optimization",
-                description:
-                        "Optimize the website's design and performance for mobile devices. (Estimated Time: 4 Weeks)",
-                status: "upcoming",
-                icon: "mobile-opt",
-        },
-        {
-                date: "August 2025",
-                title: "Role Based Access to Features",
-                description:
-                        "Implement authentication and authorization to manage feature access based on user roles. (Estimated Time: 2 Weeks)",
-                status: "upcoming",
-                icon: "access",
-        },
-        {
-                date: "September 2025",
-                title: "Agent Panel",
-                description:
-                        "Create a panel for agents to manage listings and interact with potential clients. (Estimated Time: 2 Weeks)",
-                status: "upcoming",
-                icon: "agent",
-        },
-        {
-                date: "October 2025",
-                title: "Admin - CRM",
-                description:
-                        "Develop a comprehensive CRM and admin dashboard to manage overall operations. (Estimated Time: 2 Weeks)",
-                status: "upcoming",
-                icon: "admin",
-        },
-        {
-                date: "November 2025",
-                title: "Improved Site Map",
-                description:
-                        "Enhance the sitemap generation for better SEO and indexing. (Estimated Time: 1 Week)",
-                status: "upcoming",
-                icon: "sitemap",
-        },
-        {
-                date: "November 2025",
+                date: "April 2025",
                 title: "Analytics and Stats",
-                description:
-                        "Implement tracking and analytics for user behavior and site performance. (Estimated Time: 1 Week)",
+                description: "Integrate analytics tools to track user behavior and site performance. ",
                 status: "upcoming",
                 icon: "analytics",
         },
         {
-                date: "November 2026",
+                date: "April 2025",
                 title: "Sell Property",
-                description:
-                        "Add functionality for users and agents to list properties for sale. (Estimated Time: 2 Weeks)",
+                description: "Enable users and agents to list properties for sale on the platform. ",
                 status: "upcoming",
                 icon: "sell",
         },
         {
-                date: "December 2026",
-                title: "UI v2",
-                description:
-                        "Revamp the user interface for improved aesthetics and usability. (Estimated Time: 2 Weeks)",
+                date: "May 2025",
+                title: "Home Loan Eligibility Calculator",
+                description: "Develop a calculator tool to determine home loan eligibility based on user input. ",
                 status: "upcoming",
-                icon: "ui",
+                icon: "calculator",
         },
         {
-                date: "January 2026",
+                date: "May 2025",
+                title: "Live Chat Integration",
+                description: "Integrate a live chat system for real-time customer support and inquiries. ",
+                status: "upcoming",
+                icon: "chat",
+        },
+        {
+                date: "May 2025",
+                title: "Improved Site Map",
+                description: "Enhance the site map for better navigation and SEO performance. ",
+                status: "upcoming",
+                icon: "sitemap",
+        },
+        {
+                date: "May 2025",
+                title: "Tower Listing",
+                description: "Display and manage tower-specific property listings with detailed information. ",
+                status: "upcoming",
+                icon: "tower",
+        },
+        {
+                date: "May 2025",
+                title: "Plot, Villa, Office, Simplex, Duplex, Shop Listing",
+                description: "Create categorized listing pages for diverse property types. ",
+                status: "upcoming",
+                icon: "listing",
+        },
+        {
+                date: "June 2025",
+                title: "Mobile Optimization",
+                description: "Optimize the website design and performance for mobile devices. ",
+                status: "upcoming",
+                icon: "mobile-opt",
+        },
+        {
+                date: "June 2025",
+                title: "Search V2",
+                description: "Develop an advanced search with filters and improved user experience. ",
+                status: "upcoming",
+                icon: "search",
+        },
+        {
+                date: "June 2025",
                 title: "Faster Google Indexing",
-                description:
-                        "Apply SEO best practices to improve the speed at which Google indexes the site. (Estimated Time: 1 Week)",
+                description: "Implement SEO best practices to improve the speed of Google indexing. ",
                 status: "upcoming",
                 icon: "seo",
         },
         {
-                date: "January 2026",
+                date: "June 2025",
+                title: "Role Based Access to Features",
+                description: "Implement authentication and authorization to control feature access per user role. ",
+                status: "upcoming",
+                icon: "access",
+        },
+        {
+                date: "July 2025",
                 title: "Mobile App",
-                description:
-                        "Develop an MVP mobile app to access core features such as search and listings. (Estimated Time: 6 Weeks)",
+                description: "Develop a mobile application to provide on-the-go access to core features. Mobile app will have a different roadmap.",
                 status: "upcoming",
                 icon: "mobile-app",
         },
         {
-                date: "February 2026",
+                date: "August 2025",
+                title: "Admin - CRM",
+                description: "Build a comprehensive CRM and admin dashboard to manage overall operations. ",
+                status: "upcoming",
+                icon: "admin",
+        },
+        {
+                date: "August 2025",
+                title: "Agent Panel",
+                description: "Create a dedicated panel for agents to manage listings and interact with clients. ",
+                status: "upcoming",
+                icon: "agent",
+        },
+        {
+                date: "September 2025",
+                title: "Cost Optimization",
+                description: "Optimize code and infrastructure to reduce operational costs. ",
+                status: "upcoming",
+                icon: "optimization",
+        },
+        {
+                date: "September 2025",
+                title: "Blogs",
+                description: "Integrate a blogging platform to share news, updates, and insights. ",
+                status: "upcoming",
+                icon: "blog",
+        },
+        {
+                date: "October 2025",
+                title: "Calculator and Tools",
+                description: "Develop additional tools and calculators to assist users in decision making. ",
+                status: "upcoming",
+                icon: "tools",
+        },
+        {
+                date: "October 2025",
+                title: "Site Visit Automation for Cab Booking",
+                description: "Automate the site visit booking process for improved efficiency. ",
+                status: "upcoming",
+                icon: "automation",
+        },
+        {
+                date: "November 2025",
                 title: "Custom AI Model (Housing Mantra GPT)",
-                description:
-                        "Integrate a custom AI model to provide smart recommendations and support. (Estimated Time: 4 Weeks)",
+                description: "Integrate a custom AI model to provide smart recommendations and support. ",
                 status: "upcoming",
                 icon: "ai",
+        },
+        {
+                date: "December 2025",
+                title: "UI v2",
+                description: "Revamp the user interface for enhanced aesthetics and usability. ",
+                status: "upcoming",
+                icon: "ui",
         },
         {
                 date: "Future",
