@@ -38,16 +38,9 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <div className="dark">
-
-
             <main>
               {children}
             </main>
-
-
-
-
-
           </div>
         </ThemeProvider>
       </body>

@@ -25,14 +25,7 @@ export default function TimelineHero() {
                                 </h1>
                         </motion.div>
 
-                        {/* <motion.p
-                                className="text-zinc-400 max-w-xs sm:max-w-lg md:max-w-2xl mb-6 sm:mb-8 md:mb-10 text-base sm:text-lg md:text-xl lg:text-2xl"
-                                initial={{ opacity: 0, y: 20 }}
-                                animate={{ opacity: 1, y: 0 }}
-                                transition={{ duration: 0.6, ease: "easeOut", delay: 0.2 }}
-                        >
-                                From idea to innovation: The story of how Shutter Cloud is transforming photography management
-                        </motion.p> */}
+
                 </div>
         );
 };
